@@ -4,10 +4,10 @@ import pymongo
 client = pymongo.MongoClient("mongodb://localhost:27017/neurolabDB")
 
 # Database Name
-dataBase = client["neurolabDB"]
+dataBase = client["aps"]
 
 # Collection  Name
-collection = dataBase['Products']
+collection = dataBase['sensor']
 
 # Sample data
 d = {'companyName': 'iNeuron',

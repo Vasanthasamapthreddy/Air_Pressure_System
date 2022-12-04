@@ -13,3 +13,32 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+GIT Version
+```
+git --version
+````
+
+to download dataset
+````
+wget URL 
+````
+
+to check whether other repo is configured or not
+
+````
+git remove -v
+````
+if it is true, then
+we don't want to use this repo disconnect and add /connect other one
+````
+git remote remove origin
+````
+then check if it is done or not with same command
+```git remote -v
+````
+check previous commits
+````
+git log
+````
+
